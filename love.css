@@ -7,7 +7,7 @@
   --gingham:    #f3c6d2;
   --gingham-2:  rgba(206,118,142,.28);
   --maroon:     #7a2230;
-  --red:        #e23b4e;
+  --red:        #000;
   --red-dk:     #b22a3b;
   --paper:      #fdf4ef;
   --sel:        #2f54d6;
@@ -35,12 +35,12 @@ body{
   overflow:hidden;
 }
 
-.heart{
+.clover{
   display:inline-block;
   width:14px; height:14px;
   background:var(--red);
-  -webkit-mask:var(--heart-mask) center/contain no-repeat;
-          mask:var(--heart-mask) center/contain no-repeat;
+  -webkit-mask:var(--clover-mask) center/contain no-repeat;
+          mask:var(--clover-mask) center/contain no-repeat;
 }
 .heart--inline{ width:.9em; height:.9em; vertical-align:-.05em; }
 
